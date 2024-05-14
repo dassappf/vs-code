@@ -1,13 +1,13 @@
 body{
-    background-color: #383d58;
+    background-color: #383D58;
     color: white;
 }
 .cabeçalho-imagem{
     width: 20%;
 }
-.cabeçalho {
-    background-color: #383d58;
-    color:white;
+.cabeçalho{
+    background-color: #383D58;
+    color: white;
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
@@ -19,14 +19,14 @@ body{
     font-size: 24px;
 }
 *{
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .escola-imagem{
     width: 25%;
 }
 .escola{
-    background-image: linear-gradient(#383D58, #00c0eb);
+    background-image: linear-gradient(#383d58,#00c0eb);
     color: white;
     display: flex;
     justify-content: center;
@@ -40,13 +40,13 @@ padding: 0;
     width: 35%;
 }
 body{
-    font-family: "poppins",sans-serif;
+    font-family:"poppins",sans-serif;
 }
 .estudante-imagem{
     width: 120px;
 }
 .estudante-icone{
-    width: 24px;
+    width: 26px;
 }
 .estudante-div{
     text-align: center;
@@ -54,4 +54,14 @@ body{
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
 }
